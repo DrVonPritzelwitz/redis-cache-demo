@@ -1,0 +1,17 @@
+{
+  "name": "redis-cache-demo",
+  "version": "1.0.0",
+  "description": "a test with redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "emverwijnen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}

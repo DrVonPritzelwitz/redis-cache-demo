@@ -1,5 +1,5 @@
 # Assignment: Simple Redis cache example
-Simpel test with redis cache
+*Simpel test with redis cache*
 
 ## Prerequisites
 
@@ -9,11 +9,36 @@ To complete this assignment you will need some tool installed:
 - Node.js [Download](https://nodejs.org/en/download/)
 - PostMan or some other API-tool [Download](https://www.postman.com/)
 
+#
+
 
 ## Assignment instructions:
 
+*Follow the instructions below to perform the redis cache speed experiment*
+
+
+### First you need to install Redis and start a redis server
+
+1. Go to windows start and open an Ubuntu command line window
+2. To install redis run: `apt-get install redis`
+2. To start a server run: `redis-server`
+3. you should see a message that a server is running on post 6379
+
+### Next we should test if the server works
+
+1. Open a second Ubuntu command line window
+2. Start the redis command line interface, run: `redis-cli`
+3. Add some data, run: `set name yourName`
+4. Read your data, run: `get name`
+5. Clear all data, run: `flushall`
+
+	- if you need to shutdown the redis server run: `shutdown`
+	- if you want to exist the redis cli run: `quit`
+
+### Finally we need to implement redis to the backend
+
 1. Clone the repo to you local machine
-2. Open a Ubuntu(Linux) Console
+
 3. Install redis by running the following command: `apt-get redis`
 
 4. Start a redis server by running the follwing command: `redis-server`
